@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 takethe-cn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+==== 附加署名条款（Attribution Clause）====
+
+任何使用、复制、修改、分发本软件，或基于本软件进行二次开发（含商业使用）时，
+必须在本软件及其衍生作品的明显位置（包括但不限于：README、文档、版权说明、
+软件内「关于 / 版权」页面、网页页脚等）保留并标注原作者署名：
+
+    takethe-cn
+
+以及开发支持方署名：
+
+    traeAI
+
+不得以任何方式删除或篡改上述署名。本条款与 MIT 协议正文具有同等效力。
+
+==== 协议正文 ====
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
