@@ -1,5 +1,7 @@
 # 青柠博客 · QingNing Blog
 
+[English](./README-en.md)
+
 一款轻量级个人博客系统。纯 **PHP + MySQL** 编写，无 Composer、无 Node 依赖，上传即可用，自带安装向导。
 
 > 灵感与视觉风格参考自 ttawa.cn。
