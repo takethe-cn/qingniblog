@@ -1,4 +1,7 @@
 # QingNing Blog  
+
+[Chinese](./README.md)
+
 A lightweight personal blogging system. Built entirely with **PHP + MySQL**, no Composer or Node.js dependencies—just upload and run, featuring a built-in installation wizard.  
 > Design inspiration and visual style reference: ttawa.cn.
 
