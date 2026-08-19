@@ -1,4 +1,4 @@
-# Lime Blog · Installation Guide
+# qingniblog · Installation Guide
 
 [Chinese](./INSTALL.md)
 
@@ -127,4 +127,53 @@ Check whether the database host, port, username, and password are correct, and e
 Using a QQ email for comments will automatically request the QQ avatar interface; non-QQ emails will display a default placeholder avatar. Please ensure the page can access the internet.
 
 **Q: Why isn't the CAPTCHA image showing? **
-The new version of the CAPTCHA has been downgraded: it outputs PNG when GD is available, and automatically
+The new version of the CAPTCHA has been downgraded: it outputs PNG when GD is available, and automatically switches to SVG output if GD is missing or lacks PNG support, ensuring image generation in any environment.  
+If the CAPTCHA still fails to display, please check:  
+- Whether the browser is blocking the request, and whether the page and CAPTCHA are from the same origin;  
+- Whether the `captcha.php` path is correct (you can access this URL directly to verify if an image is generated);  
+- Whether PHP on the server has `display_errors` enabled and whether error messages appear above—use developer tools to inspect the response content of the CAPTCHA request for confirmation.
+
+**Q: Image upload failed? **
+The `uploads/` directory is not writable; please adjust the directory permissions to 755/775/777 and try again.
+
+**Q: Want to switch databases or reinstall? **
+After deleting the `config.php` file in the site root directory, simply re-access `install/index.php` (article data will be preserved, but settings will be reset).
+
+**Q: Getting a 404 error when clicking "Next / Submit Database" in the installation wizard?** **
+The old version of the wizard incorrectly used `install.php` in internal links, whereas the actual file is `install/index.php`, causing relative links to resolve to a non-existent `install.php` and resulting in a 404 error.  
+- Please verify that the content of `install/index.php` no longer contains any references to `install.php` (all should be replaced with `index.php`);  
+- If the file remains unchanged, simply re-upload the corrected `install/index.php` to overwrite it.
+
+
+---
+
+
+## 7. Directory Structure
+
+
+```
+blog/
+├── index.php          Home page (full-screen slideshow: Hero → About → Latest Posts → Footer)  
+├── about.php          About Me  
+├── blog.php           Blog list  
+├── post.php           Post details (with comment system + image CAPTCHA)  
+├── friends.php        Links  
+├── captcha.php        CAPTCHA image interface for comments  
+├── admin/             Admin panel  
+├── assets/            Styles, scripts, and images  
+├── includes/          Common functions, configuration, CSRF, CAPTCHA, etc.  
+├── install/           Installation wizard (delete after setup)  
+└── uploads/           Uploaded images (must be writable)
+```
+
+
+---
+
+
+## 8. About Open Source
+
+- Project homepage and feature introduction: [README.md](./README.md)  
+- License: [MIT + Attribution Clause](./LICENSE), commercial use and modification allowed, but original author attribution must be retained  
+- Author: takethe-cn; developed with assistance from Trae AI (traeAI)
+
+This document is translated by NetEase Youdao Dictionary.
