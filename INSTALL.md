@@ -1,5 +1,7 @@
 # 青柠博客 · 安装教程
 
+[English](./INSTALL-en.md)
+
 一个轻量级个人博客系统，纯 PHP + MySQL 编写，无需 Composer，上传即可用。
 
 ---
