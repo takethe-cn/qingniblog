@@ -21,7 +21,13 @@ A lightweight personal blogging system. Built entirely with **PHP + MySQL**, no 
 ---
 
 ## 📸 Screenshots  
-> Add screenshots here: Homepage / Article page / Comment section / Admin panel.
+![1000003237.webp](https://free-img.400040.xyz/4/2026/08/19/6a8537cf09a96.webp)
+![1000003239.webp](https://free-img.400040.xyz/4/2026/08/19/6a8537cf6a938.webp)
+![1000003235.webp](https://free-img.400040.xyz/4/2026/08/19/6a8537cfd376d.webp)
+![1000003236.webp](https://free-img.400040.xyz/4/2026/08/19/6a8537ce8b73a.webp)
+![1000003238.webp](https://free-img.400040.xyz/4/2026/08/19/6a8537ce01971.webp)
+![1000003240.webp](https://free-img.400040.xyz/4/2026/08/19/6a8537ce46c4c.webp)
+![1000003234.webp](https://free-img.400040.xyz/4/2026/08/19/6a8537d7d99bd.webp)
 
 ---
 
